@@ -1,8 +1,11 @@
-p {
-    color: red;
-    text-transform: uppercase;
-    
-    span{
-        font-size: large;
-    }
+@import './base/fonts';
+
+h1 {
+  color: #ff0000;
+  display: block;
+  text-transform: uppercase;
+}
+
+* {
+  font-family: 'Noto Sans KR', sans-serif;
 }
