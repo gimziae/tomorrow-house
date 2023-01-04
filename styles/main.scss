@@ -1,17 +1,11 @@
 // 변수선언
 @import "./constants/colors";
 @import "./constants/typography";
+
 @import "./base/fonts";
+@import "./base/normalize";
 @import "./base/reset";
 
-h1 {
-  color: #ff0000;
-  display: block;
-  text-transform: uppercase;
-}
+@import "./mixins/text-style";
 
-* {
-  font-family: $font-main;
-  margin: 0;
-  box-sizing: border-box;
-}
+@import "./layouts/grid";
