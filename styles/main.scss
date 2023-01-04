@@ -1,6 +1,6 @@
 // 변수선언
 @import "./constants/colors";
-
+@import "./constants/typography";
 @import "./base/fonts";
 @import "./base/reset";
 
@@ -11,5 +11,7 @@ h1 {
 }
 
 * {
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: $font-main;
+  margin: 0;
+  box-sizing: border-box;
 }
